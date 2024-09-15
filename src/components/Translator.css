@@ -1,0 +1,47 @@
+.translator-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .translator-form {
+    margin-bottom: 20px;
+  }
+  
+  .translator-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  .translator-form button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .translator-form button:disabled {
+    background-color: #a9a9a9;
+    cursor: not-allowed;
+  }
+  
+  .translated-result {
+    margin-top: 20px;
+  }
+  
+  .translated-result h2 {
+    margin-bottom: 10px;
+  }
+  
+  .translated-result p {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  

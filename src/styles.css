@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+div {
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.home-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-page li {
+  margin: 10px 0;
+}
+
+.home-page a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.home-page a:hover {
+  text-decoration: underline;
+}
+
+.chatbox-page, .faq-page, .translator-page, .about-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  background: #f9f9f9;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.from-bot {
+  background: #e1f5fe;
+  text-align: left;
+}
+
+.from-user {
+  background: #c8e6c9;
+  text-align: right;
+}
+
+.chatbox-form {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.chatbox-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 0;
+}
+
+.chatbox-form button {
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.chatbox-form button:hover {
+  background: #0056b3;
+}
+
+.faq-manager {
+  padding: 20px;
+}
+
+.faq-manager input,
+.faq-manager textarea,
+.faq-manager button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.faq-manager input,
+.faq-manager textarea {
+  width: 100%;
+  max-width: 600px;
+}
+
+.faq-manager button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.faq-manager button:hover {
+  background-color: #0056b3;
+}
+
+.faq-manager ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-manager li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
